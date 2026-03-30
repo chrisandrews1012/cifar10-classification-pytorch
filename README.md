@@ -9,7 +9,7 @@ This repository contains two Jupyter notebooks from my graduate-level course pro
 This notebook provides a comprehensive walkthrough of building the classic LeNet-5 architecture from the ground up.
 
 **Key Activities:**
-*   **Theoretical Analysis:** Manual calculation of the model's memory footprint (parameters) and computational cost (Multiply-Accumulate operations).
+*   **Theoretical Analysis:** Manual calculation of the model's memory footprint (parameters) and computational cost (MACs).
 *   **PyTorch Implementation:** Defines the `LeNet5` model class, including optional batch normalization layers.
 *   **Data Pipeline:** Implements a full data preprocessing and augmentation pipeline using `torchvision.transforms`.
 *   **Training & Evaluation:** Contains the complete training and validation loop, including hyperparameter tuning, L2 regularization, and a learning rate decay schedule to optimize performance.
